@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { SyntheticEvent, useCallback } from 'react';
 import axios from 'axios';
 
-const BOT_API_KEY = '5380622137:AAGSU86lK-iPlZpw-o6__tPH6INl3LHUTsM';
+const BOT_API_KEY = process.env.BOT_API_KEY;
 const MY_CHANNEL_NAME = '@toastmaster_weddings_germany';
 
 const Home: NextPage = () => {
